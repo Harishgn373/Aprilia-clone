@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#body-img {
+    width: 100%;
+    height: auto;
+}
+
+#body-img img {
+    width: 100%;
+}
+
+#text {
+    position: absolute;
+    right: 50px;
+    width: 30%;
+    top: 220px;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: red;
+    text-shadow: 2px 2px 5px black;
+}
+
+#text span {
+    color: white;
+}
+
+#rs457-page {
+    width: 100%;
+    height: 600%;
+}
+
+#rs457-page h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#rs457-page p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: #b2b2b2;
+}
+
+#rs-img-page {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#rs-img-inside {
+    width: 60%;
+    height: 500px;
+}
+
+#rs-img-inside img {
+    width: 100%;
+}
+
+#rs-img-inside div {
+    display: inline-block;
+
+}
+
+#sound {
+    width: 18%;
+    height: 20%;
+}
+
+#sound i {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#sound button {
+    font-size: 50px;
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#play {
+    position: relative;
+    top: 0%;
+    left: 30%;
+    display: inline-block;
+}
+
+#pasue {
+    position: relative;
+    top: 0%;
+    left: 28%;
+    display: inline-block;
+}
+
+#pasue-button {
+    display: none;
+}
+
+/* ----------------colors----------------- */
+
+#colors {
+    width: 100%;
+    height: 260px;
+}
+
+#colors h2 {
+    text-align: center;
+    padding: 10px 0px 15px 0px;
+    color: #b2b2b2;
+}
+
+#three-colors {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#three-colors div {
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 13px;
+    border-radius: 50%;
+}
+
+#three-colors div button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#STRIPES {
+    background-color: red;
+}
+
+#DARK {
+    background-color: #565656;
+}
+
+#LIGHT {
+    background-color: #d2d2d2;
+}
+
+#price {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+#order {
+    display: flex;
+    justify-content: center;
+}
+
+#order-but {
+    width: 130px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+}
+
+#order-but:hover {
+    box-shadow: 2px 2px 8px wheat;
+    color: black;
+}
+
+#light-img {
+    display: none;
+}
+
+#stripes-img {
+    display: none;
+}
+
+#first-name {
+    display: none;
+}
+
+#thrid-name {
+    display: none;
+}
+/* SPECIFICATIONS */
+#specification{
+    width: 100%;
+    height: 280px;
+    background-color: #d2d2d2;
+}
+#speci-head{
+    font-size: 50px;
+    /* text-align: center; */
+    padding: 0px 0px 20px 130px;
+    color: white;
+}
+#specification #speci-head span{
+    color: red;
+}
+#speci-content{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#speci-content h1{
+    font-size: 35px;
+}
+#speci-content span{
+    font-weight: bold;
+    font-size: 50px;
+}
+/* gallery rs457 */
+#gallery-box{
+    width: 100%;
+    height: 580px;
+}
+#gallery-box h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+#photo-457{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+   
+}
+#photo-457::-webkit-scrollbar{
+    width: 0px;
+}
+#photo-457 div{
+    min-width: 45%;
+    height: auto;
+    margin: 20px;
+}
+#photo-457 div img{
+    width: 100%;
+}

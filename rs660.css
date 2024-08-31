@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#img-body-660{
+    width: 100%;
+    height: 95vh;
+}
+#img-body-660 img{
+    width: 100%;
+}
+#text-660{
+    position: absolute;
+    left: 40px;
+    top:300px;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+#text-660 span{
+    color: red;
+}

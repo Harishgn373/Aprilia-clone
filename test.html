@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="testride.css">
+</head>
+
+<body>
+    <nav>
+        <div id="nav-container">
+            <a href="index.html" id="logo-main">
+                <h1 id="heading">aprilia</h1>
+            </a>
+            <div id="model-s">
+                <button class="model">SPORTS BIKES</button>
+                <div id="model-s-list">
+                    <a href="RS457.html">RS 457</a>
+                    <a href="rs660.html">RS 660</a>
+                    <a href="RSV4.HTML">RSV4</a>
+                </div>
+            </div>
+            <div id="model-n">
+                <button class="model">NAKED BIKES</button>
+                <div id="model-n-list">
+                    <a href="">TUONO 660 </a>
+                    <a href="">TUONO V4</a>
+                </div>
+            </div>
+            <div>
+                <a class="model" href="">GALLERY</a>
+            </div>
+            <div id="icon">
+                <button title="icon"><i class="fa-solid fa-bars" id="menu" onclick="menu()"></i><i
+                        class="fa-solid fa-xmark" id="wrong" onclick="worng()"></i></button>
+                <div id="about-detail">
+                    <a href="">ABOUT US</a>
+                    <a href="test.html">BOOK A TEST RIDE</a>
+                    <a href="">CONTACT US</a>
+                    <div id="social-media">
+                        <a rel="noopener"
+                            href="https://www.instagram.com/apriliaindia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            title="instagram" target="_blank"><i id="insta" class="fa-brands fa-instagram"></i></a>
+                        <a href="" title="facebook"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+                        <a href="" title="gmail"><i id="mail" class="fa-regular fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="ntg"></div>
+    <form action="">
+        <div id="body-container">
+            <div id="container">
+                <h2>Fill the below details <br> to Book now</h2>
+                <div id="salutation" class="in-put">
+                    <select name="" id="" title="select your salutation">
+                        <option value="">select salutation</option>
+                        <option value="">Mr.</option>
+                        <option value="">Ms.</option>
+                        <option value="">Dr.</option>
+                    </select>
+                </div>
+                <div id="username" class="in-put">
+                    <input type="text" placeholder=" Name" required>
+                </div>
+                <div id="email" class="in-put">
+                    <input type="email" placeholder=" Email" required>
+                </div>
+                <div id="phone-no" class="in-put">
+                    <input type="text" placeholder=" 10 digit mobile no without country code" maxlength="10" size="10"
+                        required>
+                </div>
+                <div id="city" class="in-put">
+                    <select name="" id="" title="Enter city">
+                        <option value="">Select City*</option>
+                        <option value="">Chitradurga</option>
+                        <option value="">Davanagere</option>
+                        <option value="">Tumkur</option>
+                    </select>
+                </div>
+                <div id="pincode" class="in-put">
+                    <input type="text" placeholder=" Pincode" maxlength="6" size="4" required>
+                </div>
+                <div id="model" class="in-put">
+                    <select name="" id="" title="Select model">
+                        <option value="">Select Model</option>
+                        <option value="">RS 457</option>
+                        <option value="">RS 660</option>
+                        <option value="">RSV4 1100</option>
+                        <option value="">TUONO 660</option>
+                        <option value="">TUONO V4</option>
+                    </select>
+                </div>
+                <div id="ridedate">
+                    <label for="dt" id="dtl">Select test ride date time</label>
+                    <input type="datetime-local" name="" id="dt" required>
+                </div>
+                <div class="in-put">
+                    <button type="submit" onclick="myfun()">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
